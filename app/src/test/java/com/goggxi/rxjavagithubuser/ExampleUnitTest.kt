@@ -1,4 +1,4 @@
-package com.goggxi.rxjava_github_user
+package com.goggxi.rxjavagithubuser
 
 import org.junit.Test
 

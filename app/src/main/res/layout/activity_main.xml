@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.goggxi.rxjavagithubuser.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,6 +15,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:textSize="18sp"
         />
 
@@ -34,7 +35,6 @@
        android:layout_below="@id/btn_refresh"
        android:gravity="center_horizontal"
        android:orientation="horizontal"
-       android:layout_marginTop="16dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content">
 
@@ -42,6 +42,8 @@
            android:id="@+id/recommend1"
            layout="@layout/user_item"
            android:layout_marginEnd="8dp"
+           android:layout_marginTop="16dp"
+           android:layout_marginBottom="16dp"
            android:layout_height="wrap_content"
            android:layout_width="wrap_content"
            />
@@ -50,6 +52,8 @@
            android:id="@+id/recommend2"
            layout="@layout/user_item"
            android:layout_marginStart="8dp"
+           android:layout_marginTop="16dp"
+           android:layout_marginBottom="16dp"
            android:layout_marginEnd="8dp"
            android:layout_height="wrap_content"
            android:layout_width="wrap_content"
@@ -59,6 +63,8 @@
            android:id="@+id/recommend3"
            layout="@layout/user_item"
            android:layout_marginStart="8dp"
+           android:layout_marginTop="16dp"
+           android:layout_marginBottom="16dp"
            android:layout_height="wrap_content"
            android:layout_width="wrap_content"
            />
