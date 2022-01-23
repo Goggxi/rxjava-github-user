@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">rxjava-github-user</string>
+    <string name="avatar">avatar</string>
+    <string name="random">Acak</string>
+    <string name="rekomendasi_untuk_kamu">Rekomendasi untuk kamu</string>
+    <string name="refresh">Refresh</string>
+</resources>
